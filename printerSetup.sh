@@ -15,7 +15,7 @@ fail()
 }
 
 echo "Some components of this script will require sudo permissions."
-echo "Please enter your sudo password if so we can interact with CUPS: "
+echo "Please enter your sudo password so we can interact with CUPS: "
 sudo true || fail
 echo
 
